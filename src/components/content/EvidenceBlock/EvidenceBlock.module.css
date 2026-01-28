@@ -1,0 +1,182 @@
+/**
+ * ONE-DNA™ Evidence Block Styles
+ */
+
+.evidenceBlock {
+  padding: var(--space-6);
+  background-color: var(--color-bg-secondary);
+  border: var(--border-width-thin) solid var(--color-border-light);
+  border-radius: var(--border-radius-lg);
+  border-left: var(--border-width-thick) solid var(--color-brand-accent);
+}
+
+.status-verified {
+  border-left-color: var(--color-success);
+}
+
+.status-pending {
+  border-left-color: var(--color-warning);
+}
+
+.status-expired {
+  border-left-color: var(--color-error);
+}
+
+/* Header */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.typeLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  color: var(--color-text-secondary);
+}
+
+.typeLabel svg {
+  color: var(--color-brand-accent);
+}
+
+/* Status Badge */
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  border-radius: var(--border-radius-full);
+}
+
+.badge-verified {
+  background-color: rgba(45, 138, 95, 0.1);
+  color: var(--color-success);
+}
+
+.badge-pending {
+  background-color: rgba(201, 162, 39, 0.1);
+  color: var(--color-warning);
+}
+
+.badge-expired {
+  background-color: rgba(201, 67, 74, 0.1);
+  color: var(--color-error);
+}
+
+/* Title */
+.title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin: 0 0 var(--space-3);
+}
+
+/* Description */
+.description {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin: 0 0 var(--space-4);
+}
+
+/* Metadata */
+.metadata {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin: 0 0 var(--space-5);
+  padding: var(--space-4);
+  background-color: var(--color-bg-primary);
+  border-radius: var(--border-radius-md);
+}
+
+.metaItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.metaItem dt {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.metaItem dd {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+/* Scope Section */
+.scopeSection {
+  padding: var(--space-4);
+  margin-bottom: var(--space-5);
+  background-color: rgba(201, 162, 39, 0.08);
+  border: 1px solid rgba(201, 162, 39, 0.2);
+  border-radius: var(--border-radius-md);
+}
+
+.scopeTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-warning);
+  margin: 0 0 var(--space-3);
+}
+
+.scopeList {
+  margin: 0;
+  padding-left: var(--space-5);
+}
+
+.scopeList li {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-2);
+}
+
+.scopeList li:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer */
+.footer {
+  padding-top: var(--space-4);
+  border-top: var(--border-width-thin) solid var(--color-border-light);
+}
+
+.documentLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-brand);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.documentLink:hover {
+  color: var(--color-brand-accent);
+}
+
+.documentLink:focus-visible {
+  outline: 2px solid var(--color-brand-accent);
+  outline-offset: 2px;
+  border-radius: var(--border-radius-sm);
+}
