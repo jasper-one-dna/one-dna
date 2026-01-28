@@ -1,0 +1,305 @@
+/**
+ * ONE-DNA™ Header Styles
+ */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+  background-color: var(--color-bg-primary);
+  border-bottom: var(--border-width-thin) solid var(--color-border-light);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--content-width-wide);
+  margin: 0 auto;
+  padding: var(--space-4);
+  gap: var(--space-6);
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: var(--space-4) var(--space-8);
+  }
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.logo:focus-visible {
+  outline: 2px solid var(--color-brand-accent);
+  outline-offset: 4px;
+  border-radius: var(--border-radius-sm);
+}
+
+/* Desktop Navigation */
+.desktopNav {
+  display: none;
+  flex: 1;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .desktopNav {
+    display: flex;
+  }
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  position: relative;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  border-radius: var(--border-radius-md);
+  transition: color var(--transition-fast), background-color var(--transition-fast);
+}
+
+.navLink:hover {
+  color: var(--color-brand);
+  background-color: var(--color-bg-secondary);
+}
+
+.navLinkActive {
+  color: var(--color-brand);
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdownTrigger {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 220px;
+  padding: var(--space-2);
+  margin-top: var(--space-2);
+  background-color: var(--color-bg-primary);
+  border: var(--border-width-thin) solid var(--color-border-light);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  list-style: none;
+}
+
+.dropdownLink {
+  display: block;
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  border-radius: var(--border-radius-md);
+  transition: background-color var(--transition-fast);
+}
+
+.dropdownLink:hover {
+  background-color: var(--color-bg-secondary);
+}
+
+.dropdownLinkActive {
+  color: var(--color-brand);
+  background-color: var(--color-bg-secondary);
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+/* Locale Selector */
+.localeSelector {
+  position: relative;
+}
+
+.localeTrigger {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-2) var(--space-3);
+  background: none;
+  border: var(--border-width-thin) solid var(--color-border-light);
+  border-radius: var(--border-radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+}
+
+.localeTrigger:hover {
+  border-color: var(--color-brand-accent);
+}
+
+.localeMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 150px;
+  padding: var(--space-2);
+  margin-top: var(--space-2);
+  background-color: var(--color-bg-primary);
+  border: var(--border-width-thin) solid var(--color-border-light);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  list-style: none;
+}
+
+.localeOption {
+  display: block;
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  background: none;
+  border: none;
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-text-primary);
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.localeOption:hover {
+  background-color: var(--color-bg-secondary);
+}
+
+.localeOptionActive {
+  color: var(--color-brand);
+  background-color: var(--color-bg-secondary);
+}
+
+/* Contact CTA */
+.contactCta {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .contactCta {
+    display: inline-flex;
+  }
+}
+
+/* Mobile Menu Toggle */
+.mobileMenuToggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background: none;
+  border: none;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  border-radius: var(--border-radius-md);
+  transition: background-color var(--transition-fast);
+}
+
+.mobileMenuToggle:hover {
+  background-color: var(--color-bg-secondary);
+}
+
+@media (min-width: 1024px) {
+  .mobileMenuToggle {
+    display: none;
+  }
+}
+
+/* Mobile Navigation */
+.mobileNav {
+  display: none;
+  position: fixed;
+  top: 73px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-bg-primary);
+  padding: var(--space-6);
+  overflow-y: auto;
+  z-index: var(--z-fixed);
+}
+
+.mobileNavOpen {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .mobileNav {
+    display: none !important;
+  }
+}
+
+.mobileNavList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobileNavLink {
+  display: block;
+  padding: var(--space-4);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  border-bottom: var(--border-width-thin) solid var(--color-border-light);
+}
+
+.mobileNavLink:hover {
+  color: var(--color-brand);
+}
+
+.mobileNavLinkActive {
+  color: var(--color-brand);
+}
+
+.mobileNavSubList {
+  list-style: none;
+  padding: 0 0 0 var(--space-4);
+  margin: 0;
+}
+
+.mobileNavSubLink {
+  display: block;
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+}
+
+.mobileNavSubLink:hover {
+  color: var(--color-brand);
+}

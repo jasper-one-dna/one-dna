@@ -1,0 +1,39 @@
+{
+  "name": "one-dna-platform",
+  "version": "1.0.0",
+  "description": "ONE-DNA™ Global Knowledge Platform - A secure, scalable, multilingual, evidence-driven knowledge and specification platform",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next-intl": "^3.4.0",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^14.1.0",
+    "@testing-library/jest-dom": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

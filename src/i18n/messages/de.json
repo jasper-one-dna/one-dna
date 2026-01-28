@@ -1,0 +1,84 @@
+{
+  "common": {
+    "brand": "ONE-DNA™",
+    "tagline": "Auf Systemebene arbeiten, nicht auf Produktebene.",
+    "learnMore": "Mehr erfahren",
+    "contact": "Kontakt",
+    "readMore": "Weiterlesen",
+    "viewAll": "Alle anzeigen",
+    "copyToClipboard": "In die Zwischenablage kopieren",
+    "copied": "Kopiert!",
+    "download": "Herunterladen",
+    "share": "Teilen",
+    "language": "Sprache",
+    "country": "Land/Region"
+  },
+  "navigation": {
+    "whatIsOneDna": "Was ist ONE-DNA™",
+    "solutions": "Lösungen",
+    "policyProcurement": "Politik & Beschaffung",
+    "takebackCircularity": "Rücknahme & Kreislaufwirtschaft",
+    "specifications": "Spezifikationen",
+    "insights": "Einblicke",
+    "findPartner": "Partner finden"
+  },
+  "footer": {
+    "aboutOneDna": "Über ONE-DNA™",
+    "resources": "Ressourcen",
+    "support": "Unterstützung",
+    "legal": "Rechtliches",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "termsOfUse": "Nutzungsbedingungen",
+    "copyright": "© {year} ONE-DNA™. Alle Rechte vorbehalten.",
+    "trademarkNotice": "ONE-DNA™ ist eine eingetragene Marke. Die Verwendung des ONE-DNA™-Namens, Logos und der zugehörigen Marken unterliegt den Markenrichtlinien."
+  },
+  "home": {
+    "heroTitle": "Nachhaltigkeit auf Systemebene für Kunstrasen",
+    "heroSubtitle": "ONE-DNA™ ist kein Produkt. Es ist eine Designphilosophie, die Kreislaufwirtschaft vom ersten Molekül an ermöglicht.",
+    "heroCta": "Entdecken Sie den ONE-DNA™-Ansatz",
+    "problemTitle": "Das Problem mit konventionellem Kunstrasen",
+    "problemDescription": "Traditioneller Kunstrasen ist für Leistung konzipiert, nicht für das Lebensende. Gemischte Materialien machen Recycling unpraktisch und führen zu Deponierung und Verbrennung.",
+    "solutionTitle": "Der ONE-DNA™-Unterschied",
+    "solutionDescription": "ONE-DNA™-Produkte sind aus einer einzigen Materialfamilie konzipiert, was echte Recyclingfähigkeit ermöglicht und den Kreislauf für Kunstrasen schließt."
+  },
+  "claims": {
+    "transparencyTitle": "Transparenz-Rahmenwerk",
+    "transparencyDescription": "ONE-DNA™ verpflichtet sich, Greenwashing zu vermeiden. Dieser Abschnitt bietet eine klare Einrahmung von Behauptungen, Nachweisen und Einschränkungen.",
+    "problemFraming": "Problemeinrahmung",
+    "designPrinciples": "ONE-DNA™ Designprinzipien",
+    "whatThisEnables": "Was dies ermöglicht",
+    "whatThisDoesNotGuarantee": "Was dies NICHT garantiert",
+    "evidenceScope": "Nachweise & Geltungsbereich",
+    "localConditions": "Lokale Bedingungen & Kontext"
+  },
+  "evidence": {
+    "epd": "Umweltproduktdeklaration",
+    "lca": "Ökobilanz",
+    "testReport": "Prüfbericht",
+    "certification": "Zertifizierung",
+    "definition": "Definition",
+    "scope": "Geltungsbereichserklärung",
+    "thirdParty": "Drittanbieter-Verifizierung",
+    "verified": "Verifiziert",
+    "pending": "Verifizierung ausstehend",
+    "expired": "Abgelaufen",
+    "scopeLimitations": "Geltungsbereich & Einschränkungen",
+    "viewDocument": "Vollständiges Dokument anzeigen"
+  },
+  "specification": {
+    "title": "Spezifikation",
+    "copyText": "Spezifikationstext kopieren",
+    "usageGuidance": "Verwendungshinweise",
+    "disclaimer": "Haftungsausschluss",
+    "technicalParameters": "Technische Parameter"
+  },
+  "sustainability": {
+    "disclaimerTitle": "Wichtiger Hinweis zu Nachhaltigkeitsbehauptungen",
+    "disclaimerText": "ONE-DNA™ verpflichtet sich zu Transparenz und zur Vermeidung von Greenwashing. Alle Nachhaltigkeitsbehauptungen auf dieser Plattform werden durch Nachweise gestützt und klar innerhalb ihres Geltungsbereichs eingerahmt. Designabsicht und technisches Potenzial werden von realen Implementierungsergebnissen unterschieden, die von ordnungsgemäßer Installation, Wartung und End-of-Life-Verarbeitung durch qualifizierte Partner abhängen."
+  },
+  "meta": {
+    "defaultTitle": "ONE-DNA™ | Nachhaltigkeit auf Systemebene für Kunstrasen",
+    "defaultDescription": "ONE-DNA™ ist eine Designphilosophie, die Kreislaufwirtschaft vom ersten Molekül an ermöglicht. Entdecken Sie unseren nachweisbasierten Ansatz für nachhaltige Kunstrasensysteme."
+  }
+}

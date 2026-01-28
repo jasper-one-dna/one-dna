@@ -1,0 +1,84 @@
+{
+  "common": {
+    "brand": "ONE-DNA™",
+    "tagline": "Operating at system level, not product level.",
+    "learnMore": "Learn more",
+    "contact": "Contact",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "copyToClipboard": "Copy to clipboard",
+    "copied": "Copied!",
+    "download": "Download",
+    "share": "Share",
+    "language": "Language",
+    "country": "Country/Region"
+  },
+  "navigation": {
+    "whatIsOneDna": "What is ONE-DNA™",
+    "solutions": "Solutions",
+    "policyProcurement": "Policy & Procurement",
+    "takebackCircularity": "Take-back & Circularity",
+    "specifications": "Specifications",
+    "insights": "Insights",
+    "findPartner": "Find a Partner"
+  },
+  "footer": {
+    "aboutOneDna": "About ONE-DNA™",
+    "resources": "Resources",
+    "support": "Support",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "termsOfUse": "Terms of Use",
+    "copyright": "© {year} ONE-DNA™. All rights reserved.",
+    "trademarkNotice": "ONE-DNA™ is a registered trademark. Use of the ONE-DNA™ name, logo, and associated marks is subject to trademark guidelines."
+  },
+  "home": {
+    "heroTitle": "System-Level Sustainability for Artificial Grass",
+    "heroSubtitle": "ONE-DNA™ is not a product. It's a design philosophy that enables circularity from the very first molecule.",
+    "heroCta": "Discover the ONE-DNA™ approach",
+    "problemTitle": "The Problem with Conventional Artificial Grass",
+    "problemDescription": "Traditional artificial grass is designed for performance, not for end-of-life. Mixed materials make recycling impractical, leading to landfill and incineration.",
+    "solutionTitle": "The ONE-DNA™ Difference",
+    "solutionDescription": "ONE-DNA™ products are designed from a single material family, enabling true recyclability and closing the loop on artificial grass."
+  },
+  "claims": {
+    "transparencyTitle": "Transparency Framework",
+    "transparencyDescription": "ONE-DNA™ is committed to avoiding greenwashing. This section provides clear framing of claims, evidence, and limitations.",
+    "problemFraming": "Problem Framing",
+    "designPrinciples": "ONE-DNA™ Design Principles",
+    "whatThisEnables": "What This Enables",
+    "whatThisDoesNotGuarantee": "What This Does NOT Guarantee",
+    "evidenceScope": "Evidence & Scope",
+    "localConditions": "Local Conditions & Context"
+  },
+  "evidence": {
+    "epd": "Environmental Product Declaration",
+    "lca": "Life Cycle Assessment",
+    "testReport": "Test Report",
+    "certification": "Certification",
+    "definition": "Definition",
+    "scope": "Scope Statement",
+    "thirdParty": "Third-Party Verification",
+    "verified": "Verified",
+    "pending": "Pending Verification",
+    "expired": "Expired",
+    "scopeLimitations": "Scope & Limitations",
+    "viewDocument": "View Full Document"
+  },
+  "specification": {
+    "title": "Specification",
+    "copyText": "Copy Specification Text",
+    "usageGuidance": "Usage Guidance",
+    "disclaimer": "Disclaimer",
+    "technicalParameters": "Technical Parameters"
+  },
+  "sustainability": {
+    "disclaimerTitle": "Important Note on Sustainability Claims",
+    "disclaimerText": "ONE-DNA™ is committed to transparency and avoiding greenwashing. All sustainability claims on this platform are supported by evidence and clearly framed within their applicable scope. Design intent and technical potential are distinguished from real-world implementation outcomes, which depend on proper installation, maintenance, and end-of-life processing by qualified partners."
+  },
+  "meta": {
+    "defaultTitle": "ONE-DNA™ | System-Level Sustainability for Artificial Grass",
+    "defaultDescription": "ONE-DNA™ is a design philosophy enabling circularity from the first molecule. Explore our evidence-driven approach to sustainable artificial grass systems."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "common": {
+    "brand": "ONE-DNA™",
+    "tagline": "Werkend op systeemniveau, niet op productniveau.",
+    "learnMore": "Meer informatie",
+    "contact": "Contact",
+    "readMore": "Lees meer",
+    "viewAll": "Bekijk alles",
+    "copyToClipboard": "Kopiëren naar klembord",
+    "copied": "Gekopieerd!",
+    "download": "Downloaden",
+    "share": "Delen",
+    "language": "Taal",
+    "country": "Land/Regio"
+  },
+  "navigation": {
+    "whatIsOneDna": "Wat is ONE-DNA™",
+    "solutions": "Oplossingen",
+    "policyProcurement": "Beleid & Inkoop",
+    "takebackCircularity": "Inname & Circulariteit",
+    "specifications": "Specificaties",
+    "insights": "Inzichten",
+    "findPartner": "Vind een Partner"
+  },
+  "footer": {
+    "aboutOneDna": "Over ONE-DNA™",
+    "resources": "Bronnen",
+    "support": "Ondersteuning",
+    "legal": "Juridisch",
+    "privacyPolicy": "Privacybeleid",
+    "cookiePolicy": "Cookiebeleid",
+    "termsOfUse": "Gebruiksvoorwaarden",
+    "copyright": "© {year} ONE-DNA™. Alle rechten voorbehouden.",
+    "trademarkNotice": "ONE-DNA™ is een geregistreerd handelsmerk. Het gebruik van de naam, het logo en de bijbehorende merken van ONE-DNA™ is onderworpen aan handelsmerkrichtlijnen."
+  },
+  "home": {
+    "heroTitle": "Duurzaamheid op Systeemniveau voor Kunstgras",
+    "heroSubtitle": "ONE-DNA™ is geen product. Het is een ontwerpfilosofie die circulariteit mogelijk maakt vanaf het allereerste molecuul.",
+    "heroCta": "Ontdek de ONE-DNA™ aanpak",
+    "problemTitle": "Het Probleem met Conventioneel Kunstgras",
+    "problemDescription": "Traditioneel kunstgras is ontworpen voor prestaties, niet voor het einde van de levensduur. Gemengde materialen maken recycling onpraktisch, wat leidt tot storten en verbranding.",
+    "solutionTitle": "Het ONE-DNA™ Verschil",
+    "solutionDescription": "ONE-DNA™ producten zijn ontworpen uit één materiaalgezin, wat echte recycleerbaarheid mogelijk maakt en de kringloop van kunstgras sluit."
+  },
+  "claims": {
+    "transparencyTitle": "Transparantiekader",
+    "transparencyDescription": "ONE-DNA™ zet zich in om greenwashing te vermijden. Deze sectie biedt een duidelijke omkadering van claims, bewijs en beperkingen.",
+    "problemFraming": "Probleemomkadering",
+    "designPrinciples": "ONE-DNA™ Ontwerpprincipes",
+    "whatThisEnables": "Wat Dit Mogelijk Maakt",
+    "whatThisDoesNotGuarantee": "Wat Dit NIET Garandeert",
+    "evidenceScope": "Bewijs & Omvang",
+    "localConditions": "Lokale Omstandigheden & Context"
+  },
+  "evidence": {
+    "epd": "Milieu Product Declaratie",
+    "lca": "Levenscyclusanalyse",
+    "testReport": "Testrapport",
+    "certification": "Certificering",
+    "definition": "Definitie",
+    "scope": "Scopeverklaring",
+    "thirdParty": "Verificatie door Derden",
+    "verified": "Geverifieerd",
+    "pending": "In Afwachting van Verificatie",
+    "expired": "Verlopen",
+    "scopeLimitations": "Scope & Beperkingen",
+    "viewDocument": "Bekijk Volledig Document"
+  },
+  "specification": {
+    "title": "Specificatie",
+    "copyText": "Kopieer Specificatietekst",
+    "usageGuidance": "Gebruiksadvies",
+    "disclaimer": "Disclaimer",
+    "technicalParameters": "Technische Parameters"
+  },
+  "sustainability": {
+    "disclaimerTitle": "Belangrijke Opmerking over Duurzaamheidsclaims",
+    "disclaimerText": "ONE-DNA™ zet zich in voor transparantie en het vermijden van greenwashing. Alle duurzaamheidsclaims op dit platform worden ondersteund door bewijs en duidelijk omkaderd binnen hun toepassingsgebied. Ontwerpintentie en technisch potentieel worden onderscheiden van uitkomsten in de praktijk, die afhankelijk zijn van correcte installatie, onderhoud en einde-levensduurverwerking door gekwalificeerde partners."
+  },
+  "meta": {
+    "defaultTitle": "ONE-DNA™ | Duurzaamheid op Systeemniveau voor Kunstgras",
+    "defaultDescription": "ONE-DNA™ is een ontwerpfilosofie die circulariteit mogelijk maakt vanaf het eerste molecuul. Ontdek onze bewijsgedreven aanpak voor duurzame kunstgrassystemen."
+  }
+}
